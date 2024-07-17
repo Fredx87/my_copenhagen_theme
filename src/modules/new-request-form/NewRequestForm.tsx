@@ -88,6 +88,9 @@ export function NewRequestForm({
     inline_attachments_fields,
     description_mimetype_field,
   } = requestForm;
+
+  console.log("Hello from NewRequestForm");
+  
   const { answerBot } = answerBotModal;
   const {
     ticketFields: prefilledTicketFields,
